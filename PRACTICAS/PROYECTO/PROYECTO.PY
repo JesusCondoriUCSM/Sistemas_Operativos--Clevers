@@ -295,6 +295,10 @@ def main():
         elif cmd == "chmod":
             if len(partes) < 3:
                 print("Uso: chmod <permisos> <nombre>")
+            
+            elif partes[1]!="r" and partes[1]!="rw" and partes[1]!="rwx":
+                print("Permisos invalidos")  
+
             else:
                 cmd_chmod(partes[1], partes[2], GPWD)
 

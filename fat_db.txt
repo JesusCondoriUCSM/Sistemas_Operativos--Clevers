@@ -7,3 +7,4 @@
 7|hilo_3.txt|FILE|1|rw-|0
 8|hilo_4.txt|FILE|1|rw-|0
 9|hilo_5.txt|FILE|1|rw-|0
+10|na|FILE|1|rwasd|0
